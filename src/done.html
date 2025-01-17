@@ -152,6 +152,7 @@
     const ra = urldata.get("ra")
     const c = urldata.get("c")
     const re = urldata.get("re")
+    const rb = urldata.get("rb")
 
 
     let thedate = new Date().toLocaleString();
@@ -163,7 +164,8 @@
         receiveraccountnumber: ra,
         currency: c,
         receiveremail: re,
-        date: thedate
+        date: thedate,
+        bankname: rb
 
     }
     const options = {
